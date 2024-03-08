@@ -1,0 +1,99 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-app",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/order/order",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/chat/chat",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/racord/racord",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/data/data",
+      "style": {
+        "navigationBarTitleText": "数据中心",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/setIndex/setIndex",
+      "style": {
+        "navigationBarTitleText": "数据设置",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#df4334",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/chat.png",
+        "selectedIconPath": "static/chat-active.png",
+        "text": "聊天"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/order.png",
+        "selectedIconPath": "static/order-active.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "static/list.png",
+        "selectedIconPath": "static/list-active.png",
+        "text": "成长"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/mine.png",
+        "selectedIconPath": "static/mine-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}
